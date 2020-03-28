@@ -1,0 +1,61 @@
+Laurin Fisher
+Homework 1 
+cs331
+
+A.  glade. 
+
+B. Type checking in C++ is primarily static, meaning that the compiler checks for types before the program runs. 
+
+C.  
+	1.xo
+	2.ooo
+	5.xoooo
+
+D. This language is a regular language with the following rules. At first beginning you can choose either the string "tSu" or "A". If you choose "A" you then can choose "vvA" or to end your word completely.  
+
+E.  The strings matched by (a|bc)*x* 
+	1. aaax
+	3. abcxx
+	4. abc
+	5. bcbc
+
+F. (a|b)*a
+
+G.  S-> SS|X
+	X-> ab
+
+	1. SS
+	   S(X)
+	   S(ab)
+	   (X)ab
+	   abab
+
+	2. SS
+	   (X)S
+	   (ab)S
+	   ab(SS)
+	   ab(X)S
+	   ab(ab)S
+	   abab(X)
+	   abab(ab)
+	   ababab  	
+
+	3. abab
+	S->SB|X
+	X->ab
+	B->X
+
+	testing: 
+	SB
+	S(X)
+	S(ab)
+	(X)ab
+	(ab)ab	 
+
+H. 
+	1. ((*x)(a))*aa
+	2. 
+	   S ::= "xaa"|A
+	   A ::= {"a"}
+
+
